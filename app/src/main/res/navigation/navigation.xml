@@ -12,7 +12,10 @@
         tools:layout="@layout/fragment_institute_list" >
         <action
             android:id="@+id/action_instituteListFragment_to_instituteDetailFragment"
-            app:destination="@id/instituteDetailFragment" />
+            app:destination="@id/instituteDetailFragment" >
+            <argument android:name="institute"
+                app:argType="com.example.wfiappjava.data.Institute"/>
+        </action>
     </fragment>
     <fragment
         android:id="@+id/instituteDetailFragment"
