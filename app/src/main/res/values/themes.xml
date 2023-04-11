@@ -13,4 +13,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="InstituteDetailText" parent="TextAppearance.AppCompat.Subhead"/>
+
+    <style name="InstituteTitle" parent="TextAppearance.AppCompat.Headline"/>
+
+    <style name="InstituteDetailTitle" parent="TextAppearance.AppCompat.Headline"/>
 </resources>

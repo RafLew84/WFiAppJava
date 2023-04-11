@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/instituteListFragment">
+
+    <fragment
+        android:id="@+id/instituteListFragment"
+        android:name="com.example.wfiappjava.ui.fragments.list.InstituteListFragment"
+        android:label="fragment_institute_list"
+        tools:layout="@layout/fragment_institute_list" >
+        <action
+            android:id="@+id/action_instituteListFragment_to_instituteDetailFragment"
+            app:destination="@id/instituteDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/instituteDetailFragment"
+        android:name="com.example.wfiappjava.ui.fragments.detail.InstituteDetailFragment"
+        android:label="fragment_institute_detail"
+        tools:layout="@layout/fragment_institute_detail" />
+</navigation>
